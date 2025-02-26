@@ -144,7 +144,8 @@ form{
     display: flex;
     flex-direction: column;
     width: 100%;
-/* }
+}
+/* 
 hr{
     width: 90%;
     color: rgb(20, 199, 20);
@@ -158,6 +159,9 @@ hr{
     background-color: green;
 
 } */
+ .barre{
+    border: 2PX solid green;
+ }
 
 
 
