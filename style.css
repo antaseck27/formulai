@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    /* background-image: url("Photo1.avif"); */
+    
+
+}
+.container .image{
+    width: 30%;
+    height: 111VH; 
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to top, rgba(255, 165, 0, 0.7), rgba(0, 128, 128, 0.7)); /* Dégradé Orange -> Bleu */
+
+}
+.container .image img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    
+}
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.container .formulaire{
+    width: 70%;
+    height: 100%;
+    padding-top: 50px;
+    /* background-color: rgb(168, 168, 180); */
+    overflow: hidden;
+   
+   
+    
+}
+
+.container .formulaire .group{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.flex1{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+.pay{
+    margin-bottom: 30px;
+}
+
+.rond1{
+    display: flex;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    gap: 15PX;
+    
+}
+.container .formulaire .group .right{
+    width: 50%;
+    height: 100%;
+}
+.container .formulaire .group .right .droite{
+    display: flex;
+    flex-direction: column;
+   /* margin-bottom: 100px; */
+   width: 80%;
+   margin: auto;
+   margin-bottom: 40px;
+}
+
+.container .formulaire .group .left{
+    width: 50%;
+    height: 100%;
+}
+.container .formulaire .group .left .flex{
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   margin: auto;
+   margin-bottom: 40PX;
+
+}
+.imput{
+    padding: 10px;
+    border-radius: 5PX;
+    /* margin-top: 30PX; */
+}
+.border{
+    display: flex; 
+    color: brown;
+    border: 2px solid green; 
+    background-color: blue;
+    margin-bottom: 0PX;
+   
+
+}
+ .sub{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: rgba(76, 207, 16, 0.675);
+    border: none;
+    border-radius: 5PX;
+    margin: auto;
+    margin-left: 20px;
+    
+    
+}
+.res{
+    width: 80px;
+    height: 40px;
+    color: rgb(145, 141, 141);
+    border: none;
+    border-radius: 5PX;
+    
+}
+.button{
+   position: relative;
+   left: 400PX;
+   bottom: 15px;
+   
+  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+/* }
+hr{
+    width: 90%;
+    color: rgb(20, 199, 20);
+}
+.barre{
+    width: 90%;
+    color: green;
+    position: relative;
+    bottom: 150PX;
+    right: 90px;
+    background-color: green;
+
+} */
+
+
+
