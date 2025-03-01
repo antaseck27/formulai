@@ -5,19 +5,22 @@
     }
     .container .image{
         width: 100%;
-        height: 350PX; 
+        height: 400PX; 
     }
     .container{
         width: 100%;
-        max-width: 100%;
+        max-width: 100%; 
+        height: 100%;
         display: flex;
         flex-direction: column; 
         overflow: visible;
+       
        
     }
     .group{
         display: flex;
         flex-direction: column;
+        overflow: visible;
     }
     .container .formulaire{
         width: 100%;
@@ -30,11 +33,18 @@
     }
     .image{
         width: 100%;
+        height: 50%;
     }
     .container .formulaire .group .right{
         width: 80%;
         height: 100%;
     }
+    i{
+        position: relative;
+        bottom: 30PX;
+        left: 230PX;
+       
+     }
     .container .formulaire .group .left{
         width: 80%;
         height: 100%; 
@@ -62,10 +72,8 @@
     
 .barre{
     border: none;
+    
  }
-
-
-
  .sub{
     width: 80px;
     height: 40px;
@@ -93,7 +101,7 @@
 .button{
    position: relative;
    left: 10PX;
-   top: 45px;
+   top: 10px; 
    display: flex;
    align-items: center;
    
