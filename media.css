@@ -1,4 +1,4 @@
-@media screen and (max-width:720px) {
+@media screen and (max-width:780px) {
     body{
         margin: 0;
         padding: 0;
@@ -14,8 +14,6 @@
         display: flex;
         flex-direction: column; 
         overflow: visible;
-       
-       
     }
     .group{
         display: flex;
@@ -48,6 +46,8 @@
     .container .formulaire .group .left{
         width: 80%;
         height: 100%; 
+        margin-bottom: 0PX;
+        /* padding-bottom: -50PX; */
     }
     .flex1{
         width: 80%;
@@ -84,7 +84,7 @@
     margin: auto;
     margin-left: 0px;
     position: relative;
-    left: 140PX;
+    left: 140PX; 
     
     
 }
@@ -105,11 +105,16 @@
    display: flex;
    align-items: center;
    
-   
-  
 }
 .cinq{
     display: none;
 }
-    
+
+
+.container .formulaire .group .left .flex{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 10%;
+ }
 }
